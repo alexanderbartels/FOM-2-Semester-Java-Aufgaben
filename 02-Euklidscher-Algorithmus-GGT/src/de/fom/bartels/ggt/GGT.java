@@ -15,6 +15,8 @@ public class GGT {
 		String yAsString = JOptionPane.showInputDialog("x: ");
 		y = Integer.parseInt(yAsString);
 		
+		// TODO: Abfrage, ab gültige Werte ( > 0 ) 
+		
 		int ggt = berechneGGT(x, y);
 		JOptionPane.showMessageDialog(null, "GGT ist: " + ggt);
 		System.exit(0);
